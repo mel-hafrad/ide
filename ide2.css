@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: #736F59; }
+    
+
+.inner{
+    width: 80%;
+    margin: auto;
+}
+.menu{
+    height: 66px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #c8ad7f;
+    opacity: 0.70;
+    border: 2px solid black;
+    flex-wrap: wrap;
+  
+}
+.logo{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 700    ;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    color: rgb(8, 8, 8);
+    transition-duration: 2000ms;
+    transition-property: color, transform;
+}
+
+    .logo:hover{
+    color:rgb(255, 255, 255);
+    text-shadow:3px 3px 3px darkred;
+    transform:rotatey(360deg);
+}
+.menu-left{ display: flex;
+            justify-content: baseline;
+            align-self: center;
+            flex-wrap: wrap;
+            
+}
+
+.menu-right{
+   float: right;
+}
+
+.m-link{
+    color: rgb(2, 2, 2);
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 18px;
+    padding: 0px; margin: 0px  10px;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 2px solid transparent;
+}
+.m-link i{
+    margin-right: 4px;
+}
+    .m-link:hover{
+    border-color: white;
+}
+
+
+
+.sata2{
+    transition-duration: 2000ms;
+    transition-property: color, transform;
+        }
+        
+    .sata2:hover{
+     color:rgb(255, 255, 255);
+    text-shadow:3px 3px 3px darkred;
+    transform:rotatez(360deg);
+        }
+
+.logoS{
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    flex-wrap: wrap;
+}
+
+
+
+.blocktext{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Sora', sans-serif;
+    text-shadow: rgb(153, 83, 83) 1px 0 10px;
+    margin-top: 15px;
+    
+}
+
+
+.blocktext .p1{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border: 1px solid black;
+    background-color: 	#ffd700;
+    opacity: 0.9;
+}
+
+.blocktext .p2{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border: 1px solid black;
+    background-color: 	#ffd700;
+    opacity: 0.9;
+}
+
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 35px;
+    background-color: #d8dfe6b6;
+    width: 100%;
+    height:100%;
+    
+    
+ }
+ 
+.rezo{
+    margin-left: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 35px;
+    background-color: #d8dfe6b6;
+    width: 100%;
+    height:100%;
+    
+    
+}
